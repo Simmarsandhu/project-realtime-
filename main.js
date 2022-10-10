@@ -8,8 +8,9 @@ function preload(){
 
 }
 function setup(){
- video= createCapture(VIDEO);
+ video = createCapture(VIDEO);
  video.size(550,500);
+ video.position(200,150)
  canvas = createCanvas(550,500);
  canvas.position(900,150);
 
@@ -27,7 +28,7 @@ function gotposes(results){
         noseY=results[0].pose.nose.y;
         wristleftY=results[0].pose.leftWrist.y;
         wristrightY=results[0].pose.rightWrist.y;
-        difference= wristleftY-wristrightY;
+        difference= floor(wristleftY-wristrightY);
 
     }
 
