@@ -1,0 +1,36 @@
+body{
+    background-image: url("image1.jpg");
+    text-align: center;
+
+}
+.heading{
+    margin: 0px;
+    width: 100%;
+    background-color: #803822;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+
+}
+.note{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    background-color: #452315;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 3;
+
+}
+canvas{
+    border: 5px solid  #483838;
+    box-shadow: 5px 5px 10px #A77979;
+    border-radius: 10%;
+   
+   }
